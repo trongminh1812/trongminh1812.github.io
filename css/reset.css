@@ -1,0 +1,11 @@
+body {
+    padding: 10px auto;
+}
+
+a {
+    color: yellow;
+}
+
+a:hover {
+    color: aqua;
+}

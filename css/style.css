@@ -1,0 +1,204 @@
+header {
+    background: #6a9fef;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    background: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    transition: 0.2s all ease-in-out;
+    align-items: center;
+}
+
+.navbar .navbar-brand img {
+    height: 30px;
+    width: auto;
+}
+
+.collapse .navbar-nav .nav-item .nav-link {
+    color: white;
+    border: 0 solid black;
+    border-radius: 1.5rem;
+    transition: .3s all ease-in-out;
+}
+
+.collapse .navbar-nav .nav-item .nav-link:hover {
+    color: black;
+    background: white;
+    border: 0 solid white;
+    border-radius: 1.5rem;
+}
+
+.btn {
+    border: 2px solid white;
+    border-radius: 1.5rem;
+    color: white;
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 1.5rem;
+}
+
+.home {
+    background: black;
+    height: 100vh;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.service {
+    background: #6a9fef;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.home h1 {
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+}
+
+.service h2 {
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+.service h2:before {
+    content: '';
+    display: block;
+    height: 3px;
+    background: white;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+}
+
+.service h3 {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.service p {
+    color: white;
+}
+
+.home .btn-light {
+    background: orange;
+    color: white;
+    padding: .5rem 2.5rem;
+    border: 0;
+    box-shadow: 0 -2px 0 0 rgba(0, 0, 0, 0.35) inset;
+    transition: .22s all ease-in-out;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.home .btn-light:hover {
+    background: white;
+    color: black;
+    border: 0;
+}
+
+.honkai {
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.honkai:after {
+    content: '';
+    background: url(../img/yaesaku.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 1;
+    filter: brightness(50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.honkai h1 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.honkai h1:before {
+    content: '';
+    display: block;
+    height: 3px;
+    background: white;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    transform: translateX(-50%);
+}
+
+.honkai h1:after {
+    content: '';
+    display: block;
+    height: 3px;
+    background: white;
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: -15px;
+    transform: translateX(-50%);
+}
+
+.thumbn .thumbnail {
+    background: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.thumbn .thumbnail img {
+    width: 150px;
+    height: auto;
+    border: 0;
+}
+
+footer {
+    background: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+footer .textfoot {
+    color: white;
+}
